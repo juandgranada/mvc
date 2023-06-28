@@ -71,7 +71,7 @@
             if(isset($_POST['update']))
             {
                 $pro->update($_POST['id'],$_POST['nombre_proveedor'],$_POST['direccion']);
-                echo "<script>alert('Proyecto actualizado exitosamente')</script>";
+                echo "<script>alert('Proveedor actualizado exitosamente')</script>";
             }
             if(isset($_POST['delete']))
             {
